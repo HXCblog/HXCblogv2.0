@@ -1,0 +1,301 @@
+
+      #animate-layer {
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 488px;
+            overflow: hidden;
+            z-index: 0;
+            position: absolute;
+background: -webkit-linear-gradient(top,#e1f5ff 0,#51c6fb 100%);
+background: -moz-linear-gradient(top,#e1f5ff 0,#51c6fb 100%);
+background: -o-linear-gradient(top,#e1f5ff 0,#51c6fb 100%);
+background: linear-gradient(to bottom,#e1f5ff 0,#51c6fb 100%)
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d9edf7,endColorstr=#0edae4,GradientType=0);
+        }
+        #animate-layer .bg {
+            display: block;
+            width: 100%;
+            min-width: 960px;
+            height: 500px;
+            background: url(../img/mountain.png) repeat-x bottom center;
+        }
+        #animate-layer .clouds {
+            background-repeat: no-repeat;
+            -webkit-animation: flutter 10s linear infinite backwards;
+            -moz-animation: flutter 10s linear infinite backwards;
+            -o-animation: flutter 10s linear infinite backwards;
+            -ms-animation: flutter 10s linear infinite backwards;
+            animation: flutter 10s linear infinite backwards;
+            background-image: url(../img/cloud.png);
+            z-index: 0;
+            position: absolute;
+        }
+        #animate-layer .cloud-01 {
+            top: 10px;
+            left: 6%;
+            width: 229px;
+            height: 57px;
+            background-position: 0 0;
+            -webkit-animation-duration: 108s;
+            -webkit-animation-delay: -84.6s;
+            -moz-animation-duration: 108s;
+            -moz-animation-delay: -84.6s;
+            -o-animation-duration: 108s;
+            -o-animation-delay: -84.6s;
+            -ms-animation-duration: 108s;
+            -ms-animation-delay: -84.6s;
+            animation-duration: 108s;
+            animation-delay: -84.6s;
+        }
+        #animate-layer .cloud-02 {
+            top: 18%;
+            left: 88%;
+            width: 116px;
+            height: 32px;
+            background-position: 0 -57px;
+            -webkit-animation-duration: 79.2s;
+            -webkit-animation-delay: -7.74s;
+            -moz-animation-duration: 79.2s;
+            -moz-animation-delay: -7.74s;
+            -o-animation-duration: 79.2s;
+            -o-animation-delay: -7.74s;
+            -ms-animation-duration: 79.2s;
+            -ms-animation-delay: -7.74s;
+            animation-duration: 79.2s;
+            animation-delay: -7.74s;
+        }
+        #animate-layer .cloud-03 {
+            top: 32%;
+            left: 1%;
+            width: 120px;
+            height: 38px;
+            background-position: 0 -89px;
+            -webkit-animation-duration: 90s;
+            -webkit-animation-delay: -73.8s;
+            -moz-animation-duration: 90s;
+            -moz-animation-delay: -73.8s;
+            -o-animation-duration: 90s;
+            -o-animation-delay: -73.8s;
+            -ms-animation-duration: 90s;
+            -ms-animation-delay: -73.8s;
+            animation-duration: 90s;
+            animation-delay: -73.8s;
+        }
+        #animate-layer .cloud-04 {
+            top: 45%;
+            left: 92%;
+            width: 157px;
+            height: 46px;
+            background-position: 0 -127px;
+            -webkit-animation-duration: 64.8s;
+            -webkit-animation-delay: -4.14s;
+            -moz-animation-duration: 64.8s;
+            -moz-animation-delay: -4.14s;
+            -o-animation-duration: 64.8s;
+            -o-animation-delay: -4.14s;
+            -ms-animation-duration: 64.8s;
+            -ms-animation-delay: -4.14s;
+            animation-duration: 64.8s;
+            animation-delay: -4.14s;
+        }
+        #animate-layer .cloud-05 {
+            top: 56%;
+            left: 3%;
+            width: 230px;
+            height: 48px;
+            background-position: 0 -173px;
+            -webkit-animation-duration: 86.4s;
+            -webkit-animation-delay: -68.4s;
+            -moz-animation-duration: 86.4s;
+            -moz-animation-delay: -68.4s;
+            -o-animation-duration: 86.4s;
+            -o-animation-delay: -68.4s;
+            -ms-animation-duration: 86.4s;
+            -ms-animation-delay: -68.4s;
+            animation-duration: 86.4s;
+            animation-delay: -68.4s;
+        }
+        #animate-layer .cloud-06 {
+            top: 70%;
+            left: 80%;
+            width: 148px;
+            height: 47px;
+            background-position: 0 -221px;
+            -webkit-animation-duration: 97.2s;
+            -webkit-animation-delay: -5.4s;
+            -moz-animation-duration: 97.2s;
+            -moz-animation-delay: -5.4s;
+            -o-animation-duration: 97.2s;
+            -o-animation-delay: -5.4s;
+            -ms-animation-duration: 97.2s;
+            -ms-animation-delay: -5.4s;
+            animation-duration: 97.2s;
+            animation-delay: -5.4s;
+        }
+        #animate-layer .cloud-07 {
+            top: 40%;
+            left: 40%;
+            width: 110px;
+            height: 110px;
+            background:url();
+            background-size:110px 110px;
+            -webkit-animation-duration: 97.2s;
+            -webkit-animation-delay: -5.4s;
+            -moz-animation-duration: 97.2s;
+            -moz-animation-delay: -5.4s;
+            -o-animation-duration: 97.2s;
+            -o-animation-delay: -5.4s;
+            -ms-animation-duration: 97.2s;
+            -ms-animation-delay: -5.4s;
+            animation-duration: 97.2s;
+            animation-delay: -5.4s;
+        }
+        #animate-layer .balloon {
+            background-image: url(../img/balloon.png);
+            background-repeat: no-repeat;
+            -webkit-animation: flutter 10s linear infinite,shake 20s ease infinite;
+            -webkit-animation-fill-mode: backwards;
+            -moz-animation: flutter 10s linear infinite,shake 20s ease infinite;
+            -moz-animation-fill-mode: backwards;
+            -o-animation: flutter 10s linear infinite,shake 20s ease infinite;
+            -o-animation-fill-mode: backwards;
+            -ms-animation: flutter 10s linear infinite,shake 20s ease infinite;
+            -ms-animation-fill-mode: backwards;
+            animation: flutter 10s linear infinite,shake 20s ease infinite;
+            animation-fill-mode: backwards;
+            position: absolute;
+        }
+        #animate-layer .balloon-01 {
+            top: 12%;
+            left: 20%;
+            width: 57px;
+            height: 77px;
+            background-position: 0 -224px;
+            -webkit-animation-duration: 120s,20s;
+            -webkit-animation-delay: -78s;
+            -moz-animation-duration: 120s,20s;
+            -moz-animation-delay: -78s;
+            -o-animation-duration: 120s,20s;
+            -o-animation-delay: -78s;
+            -ms-animation-duration: 120s,20s;
+            -ms-animation-delay: -78s;
+            animation-duration: 120s,20s;
+            animation-delay: -78s;
+        }
+        #animate-layer .balloon-02 {
+            top: 40%;
+            left: 80%;
+            width: 167px;
+            height: 224px;
+            background-position: 0 0;
+            -webkit-animation-duration: 80s,30s;
+            -moz-animation-duration: 80s,30s;
+            -o-animation-duration: 80s,30s;
+            -ms-animation-duration: 80s,30s;
+            animation-duration: 80s,30s;
+        }
+        @-webkit-keyframes flutter {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: -20%;
+            }
+        }
+
+        @-moz-keyframes flutter {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: -20%;
+            }
+        }
+
+        @-o-keyframes flutter {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: -20%;
+            }
+        }
+
+        @-ms-keyframes flutter {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: -20%;
+            }
+        }
+
+        @keyframes flutter {
+            0% {
+                left: 100%;
+            }
+            100% {
+                left: -20%;
+            }
+        }
+
+        @-webkit-keyframes shake {
+        0 {
+            -webkit-transform: translate(0, 0);
+        }
+        50% {
+            -webkit-transform: translate(0, -50%);
+        }
+        100% {
+            -webkit-transform: translate(0, 0);
+        }
+        }
+
+        @-moz-keyframes shake {
+        0 {
+            -moz-transform: translate(0, 0);
+        }
+        50% {
+            -moz-transform: translate(0, -50%);
+        }
+        100% {
+            -moz-transform: translate(0, 0);
+        }
+        }
+
+        @-o-keyframes shake {
+        0 {
+            -o-transform: translate(0, 0);
+        }
+        50% {
+            -o-transform: translate(0, -50%);
+        }
+        100% {
+            -o-transform: translate(0, 0);
+        }
+        }
+
+        @-ms-keyframes shake {
+        0 {
+            -ms-transform: translate(0, 0);
+        }
+        50% {
+            -ms-transform: translate(0, -50%);
+        }
+        100% {
+            -ms-transform: translate(0, 0);
+        }
+        }
+
+        @keyframes shake {
+        0 {
+            transform: translate(0, 0);
+        }
+        50% {
+            transform: translate(0, -50%);
+        }
+        100% {
+            transform: translate(0, 0);
+        }
+        }
