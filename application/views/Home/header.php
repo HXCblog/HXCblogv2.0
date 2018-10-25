@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="胡新春,个人博客,程序员吹牛,HXC,web前端,胡新春个人博客,web技术博文,javascript,html5,css3,layui,layui框架,前端工具导航,web框架大全,前端工具大全,前端目录,vue,node,jq"/> 
+    <meta name="keywords" content="胡新春,个人博客,HXC,web前端,胡新春个人博客,web技术博文,javascript,html5,css3,layui,layui框架,前端工具导航,web框架大全,前端工具大全,前端目录,vue,node,jq"/> 
   <meta name="description" content="胡新春个人博客，记录生活，分享技术，专注吹牛20年，程序员笔记。 "/>
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <title>胡新春个人博客</title>

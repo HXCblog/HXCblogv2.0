@@ -130,19 +130,6 @@ class Home extends CI_Controller{
 	}
 
 
-/*时间轴*/
-	public function time_axis() {
-	//获取用户信息
-		$data['userinfo'] = $this->Home_model->getuserinfo(); 
-		//获取分类信息
-		$data['category'] = $this->Home_model->getcategory();    //获取栏目并显示 
-		//获取排名信息
-		$this->load->view('Home/header',$data);
-		$this->load->view('Home/time');
-		$this->load->view('Home/footer');
-	}
-
-
 /*版本管理*/
 	public function version() {
 		//获取用户信息

@@ -137,6 +137,7 @@ class CI_Session {
 			unset($_COOKIE[$this->_config['cookie_name']]);
 		}
 
+		ini_set('session.save_handler', 'files'); 
 		session_start();
 
 		// Is session ID auto-regeneration configured? (ignoring ajax requests)

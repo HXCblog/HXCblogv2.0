@@ -7,6 +7,8 @@
   <title>HXC后台管理</title>
   <link rel="stylesheet" href="<?php echo base_url();?>/public/theme/layui/css/layui.css">
   <link rel="stylesheet" href="<?php echo base_url();?>/public/theme/css/admin.css">
+  <!-- 2.加载jQuery库，同时加载该库必须在加载bootstrap.min.js之前 -->
+  <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
   <!-- Bootstrap -->
   <link href="<?php echo base_url();?>/public/theme/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -60,31 +62,15 @@ a:hover{
     <li class="layui-nav-item"><a href="<?php echo site_url('Article/index');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe60a;</i>  内容管理</a></li>
     <li class="layui-nav-item"><a href="<?php echo site_url('Admin/pass');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe612;</i>  用户管理</a></li>
     <li class="layui-nav-item"><a href="<?php echo site_url('Admin/version');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe61e;</i>  版本计划</a></li>
-     <li class="layui-nav-item"><a href="<?php echo site_url('Admin/shuoshuo');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe61e;</i>闲言碎语</a></li>
-    <li class="layui-nav-item"><a onclick="openwin()" href="#"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe64c;</i>   时间轴</a></li>
+     <li class="layui-nav-item"><a href="<?php echo site_url('Admin/shuoshuo');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe60f;</i>  闲言碎语</a></li>
     <li class="layui-nav-item"><a href="<?php echo site_url('Admin/friends_links');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe64c;</i>   友情链接</a></li>
-    <li class="layui-nav-item"><a href="<?php echo site_url('Admin/wait_links');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe64c;</i>  友链审核</a></li>
-    <li class="layui-nav-item"><a href="<?php echo site_url('Admin/message');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe64c;</i>留言管理</a></li>
-    <li class="layui-nav-item"><a href="http://www.qdgu.cn/admin.php" target="_blank"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe61f;</i>   前端谷</a></li>
-    <li class="layui-nav-item"><a href=""><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe61f;</i>   扩展功能</a></li>
+    <li class="layui-nav-item"><a href="<?php echo site_url('Admin/wait_links');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe64d;</i>  友链审核</a></li>
+    <li class="layui-nav-item"><a href="<?php echo site_url('Admin/message');?>"><i class="layui-icon" style="font-size: 15px; color: #009688;">&#xe63a;</i>  留言管理</a></li>
   </ul>
 </div>
 <!--左侧导航结束-->
-
-<!--弹出网页开始-->
-<script LANGUAGE="JavaScript">
-function openwin() {
-window.open ("<?php echo base_url();?>/public/time/write.php", "newwindow", "height=600, width=800,top=150,left=150, toolbar =no, menubar=no, scrollbars=no, resizable=no, location=no, status=no")
-}
-</script>
-<!--弹出网页结束-->
-
 
 <!--加载layui-->
 <script src="<?php echo base_url();?>/public/theme/layui/layui.js" charset="utf-8"></script>
 <script src="<?php echo base_url();?>/public/theme/js/layuimod.js" charset="utf-8"></script>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bootstrap/js/bootstrap.min.js"></script>

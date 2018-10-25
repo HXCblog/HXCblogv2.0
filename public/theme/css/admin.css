@@ -1,10 +1,5 @@
-/*后台样式表
-时间：20170720
-作者：HXC
-*/
-
+/*后台样式表 时间：20170720 作者：HXC */
 /*顶部nav*/
-
 .nav_top{
 	width: 100%;
 	height: 60px;
@@ -42,7 +37,6 @@
 /*系统信息*/
 .home_box{
   display: inline-block;
-  position: absolute;
 }
 
 .home_li{

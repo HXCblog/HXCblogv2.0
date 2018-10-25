@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://localhost/testblog';//此处填写网站根目录地址
+$config['base_url'] = 'http://v2.huxinchun.com/';//此处填写网站根目录地址
 
 /*
 |--------------------------------------------------------------------------
@@ -46,7 +46,9 @@ $config['index_page'] = '';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'REQUEST_URI';
+
+/*如果在apche服务器上出现404，可以尝试将如下配置修改为REQUEST_URI 具体原理可以参考ci框架手册*/
+$config['uri_protocol']	= 'PATH_INFO';
 
 /*
 |--------------------------------------------------------------------------

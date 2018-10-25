@@ -1,11 +1,5 @@
-﻿<!--
-后台导航
-时间：20170721
-作者：HXC
--->
-
+﻿<!-- 后台导航 时间：20170721 作者：HXC -->
 <!--系统信息部分样式-->
-
 <div class="home_box" >
   <div class="home_div" >
    <!--后台主页功能模块开始-->
@@ -50,7 +44,7 @@
         <thead>
           <tr>
             <th>系统信息：</th>
-            <th>HXC博客系统v1.0</th>
+            <th>HXC博客系统v2.0</th>
             <th></th>
             <th></th>
           </tr> 
@@ -81,7 +75,7 @@
             <td>服务器时间：</td>
             <td><?php echo date("Y-m-d H:i:s",time());?></td>
             <td>备注：</td>
-            <td>hxc-胡新春博客</td>
+            <td><a href="http://www.huxinchun.com">HXCblog</a></td>
           </tr>
         </tbody>
       </table>

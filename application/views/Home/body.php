@@ -4,15 +4,7 @@
         <s class="clouds cloud-01"></s>
         <s class="clouds cloud-02"></s>
         <s class="clouds cloud-03"></s>
-	<!--
-        <s class="clouds cloud-04"></s>
-        <s class="clouds cloud-05"></s>
-        <s class="clouds cloud-06"></s>
-        <s class="clouds cloud-07"></s>
-	-->
         <s class="balloon balloon-01"></s>
-	
-      <!--  <s class="balloon balloon-02"></s> -->
         <s class="bg"></s>
     </div>
 </div>
@@ -21,7 +13,7 @@
 <!--logo开始-->
 <div class="logo">
   <div id="logo_img"><img src="<?php echo base_url();?>public/style/img/index_logo.jpg"></div>
-  <div class="logo_title" >胡新春博客欢迎你</div>
+  <div class="logo_title" >HXC博客欢迎你</div>
   <div class="logo_mo" ><?php echo $userinfo['location'];?></div>
   <div class="logo_btnbox" >
     <div class="btn btn_gradient" >
@@ -83,7 +75,7 @@
 
           <div style="width: 300px;height: 100px;">
             <div  class="card_img">
-              <a href="http://qdgu.cn">
+              <a href="#">
                 <img id="sinasite" src="<?php echo base_url();?>public/style/img/sinap.png">
                 <p>前端工具</p>
               </a>
@@ -102,14 +94,14 @@
               </script>
             
             <div class="card_img">
-              <a href="http://www.huxinchun.com/Home/content/71">
+              <a href="#">
                 <img id="appsite" src="<?php echo base_url();?>public/style/img/app.png">
                 <p>本站APP</p>
               </a>
             </div>
 
             <div class="card_img">
-              <a href="https://github.com/HXCblog/HXCblog-PC-">
+              <a href="#">
                 <img id="githubsite" src="<?php echo base_url();?>public/style/img/gitp.png">
                 <p>&nbsp;GitHub</p>
               </a>
@@ -197,35 +189,6 @@
         <img width="298" height="auto" src="<?php echo base_url();?>public/style/img/huxinchun.gif">
       </div>
 
-
-      <!--本站文档开始-->
-      <div class="left_cell" style="height: 300px;">
-         <!--书签标题-->
-        <div class="ui red ribbon label lmar left_fla" style="background: #f0ad4e">
-          本站文档
-        </div>
-        <!--列表-->
-        <div class="left_list_box" style="height:200px;">
-          <div class="left_list"><a href="http://www.huxinchun.com/Home/content/82">HXC博客前端funs主题文档</a></div>
-          <div class="left_list"><a href="http://www.huxinchun.com/Home/content/65">本站开放API接口级测试说明</a></div>
-          <div class="left_list"><a href="http://www.huxinchun.com/Home/content/65">HXC博客APP手机客户端说明</a></div>
-          <div class="left_list"><a href="<?php echo site_url('/Home/content/40')?>">HXC博客系统V1.0说明文档</a></div>
-          <div class="left_list">HXC博客v1.0默认主题文档</div>
-        </div>
-        <!--数字-->
-        <div class="left_num_box">
-          <div class="left_num" style="background:#1dc0f1;">1</div>
-          <div class="left_num" style="background:#f15044;">2</div>
-          <div class="left_num" style="background:#f59608;">3</div>
-          <div class="left_num" >4</div>
-          <div class="left_num" >5</div>
-        </div>
-
-      </div>
-      <!--本站结束-->
-
-
-
   </div>
   <!--左侧边栏框结束-->
 
@@ -252,7 +215,7 @@
         <!--描述-->
         <div class="page_content">
           <div class="page_content_left">
-            <img src="<?php echo base_url();?><?php echo $val['photo'] ?>">
+            <img onerror="this.src='<?php echo base_url();?>public/style/img/huxinchun.gif'" src="<?php echo base_url();?><?php echo $val['photo'] ?>">
           </div>
           <div class="page_content_right">
           文章摘要：<?php echo $val['description'];?>

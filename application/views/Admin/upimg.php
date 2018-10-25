@@ -1,8 +1,4 @@
-﻿<!--
-文章编辑也
-时间：20170811
-作者：HXC
--->
+﻿<!-- 文章编辑 时间：20170811 作者：HXC -->
 <div class="edit_box">
 <div class="layui-tab layui-tab-card admin_bg">
   <ul class="layui-tab-title">

@@ -1,10 +1,4 @@
 ﻿
-<style>
-/*畅言评论框样式*/
-#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .post-wrap-main{background:none;background-image:none;) !important;}
-#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a .btn-fw{background:none;background-image:url(http://www.huxinchun.com/public/pictures/post-btn.png) !important;}
-</style>
-
 <!--banner开始-->
 <div class="banner" style="text-align:center;overflow:hidden;">
   <img  src="<?php echo base_url();?>public/style/img/listbg2.jpg">
@@ -90,15 +84,7 @@
 		<div class="col-md-12 message_box">
 			<div class="message_style" style="height:auto;padding:35px;" >
 			<h4>点评一下</h4>
-				<!--PC版-->
-				<div id="SOHUCS" sid="<?php echo $content['id'];?>" > </div>
-				<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
-				<script type="text/javascript">
-				window.changyan.api.config({
-				appid: 'cyt05y4uR',
-				conf: 'prod_02cf7f8f4f6d36f0496fff918632c674'
-				});
-				</script>
+				
 			</div>
 
 		</div>

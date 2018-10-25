@@ -1,8 +1,4 @@
-﻿<!--
-管理员信息博主名片页
-时间：20170726
-作者:HXC	
--->
+﻿<!-- 管理员信息博主名片页 时间：20170726 作者:HXC-->
 <div class="card_box">
 	<div class="layui-tab layui-tab-card admin_bg">
 	  <ul class="layui-tab-title">
