@@ -157,17 +157,17 @@ ci官方手册：`https://codeigniter.org.cn/user_guide/general/urls.html`
 ##前台界面：
 ###主页  
 
-![主页w](https://github.com/HXCblog/HXCblog-PC-/blob/master/%E7%95%8C%E9%9D%A2%E9%A2%84%E8%A7%88/%E4%B8%BB%E9%A1%B5.png?raw=true)   
+![主页w](https://github.com/HXCblog/myimages/blob/master/img/hxc1.png)   
 
 ### 文章页  
 
-![主页re](https://github.com/HXCblog/HXCblog-PC-/blob/master/%E7%95%8C%E9%9D%A2%E9%A2%84%E8%A7%88/%E6%96%87%E7%AB%A0%E9%A1%B5.png?raw=true) 
+![主页re](https://github.com/HXCblog/myimages/blob/master/img/hxc3.png) 
 
 ## 后台界面预览：  
 
 ###后台主页  
 
-![主页ds](https://github.com/HXCblog/HXCblog-PC-/blob/master/%E7%95%8C%E9%9D%A2%E9%A2%84%E8%A7%88/%E5%90%8E%E5%8F%B0%E4%B8%BB%E9%A1%B5.png?raw=true)   
+![主页ds](https://github.com/HXCblog/myimages/blob/master/img/hxc5.png)   
 
 ###栏目分类页  
 
