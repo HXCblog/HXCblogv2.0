@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HXCblog v2.0二次元特别版-个人博客系统 
 主要基于Codeigniter3框架 +前台界面bootstrap3+后台界面layui1.0开发，是基于HXCblog v1.0精简博客系统修改而来，并一同开发了该系统APP客户端。
 
@@ -25,7 +24,7 @@
 * [HXCblogv2.5](https://github.com/HXCblog/HXCblogv2.5)
 * [HXCblog_app](https://github.com/HXCblog/HXCapp)
 
-邮箱：hi@huxinchun.com
+####邮箱：hi@huxinchun.com
 =======
 # HXCblog博客 v1.0 主要基于Codeigniter + layui开发，是一套简练简介的个人博客程序，并一同开发了该系统APP客户端。
 基于CI+layui开发的个人博客系统
