@@ -1,7 +1,7 @@
 ﻿# HXCblog v2.0二次元特别版-个人博客系统 
 主要基于Codeigniter3框架 +前台界面bootstrap3+后台界面layui1.0开发，是基于HXCblog v1.0精简博客系统修改而来，并一同开发了该系统APP客户端。
 
-##博客系统简介
+## 博客系统简介
 
 * 后台语言:PHP Codeigniter3
 * 后台界面：layui1.0
@@ -12,9 +12,9 @@
 * Codeigniter框架官方开发环境：Apache
 * 演示站部署环境：centos6.8+nginx1.14.0+mysql5.7
 
-#####说明：本人非php程序员，技术粗浅，HXCblogv2.0二次元特别版在开发时比较随意，界面代码不够友善，多处固定连接及样式混写，是由于使用期间三天两头修改添加造成的，程序完整可用，保留该版本只为方便分享和交流。
+##### 说明：本人非php程序员，技术粗浅，HXCblogv2.0二次元特别版在开发时比较随意，界面代码不够友善，多处固定连接及样式混写，是由于使用期间三天两头修改添加造成的，程序完整可用，保留该版本只为方便分享和交流。
 
-##博客地址：  
+## 博客地址：  
 * [HXCblogv2.0演示站:http://v2.huxinchun.com](http://v2.huxinchun.com)
 * [HXC博客:www.huxinchun.com](http://www.huxinchun.com)
 
