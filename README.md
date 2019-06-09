@@ -55,7 +55,7 @@
 
 ![ABC23](https://github.com/HXCblog/myimages/blob/master/img/1503468165131636.png?raw=true)  
 
-* 4、新建好数据库，将hxcblogv1.0.sql文件导入数据库中或者复制数据库使用SQL语句添加创建。
+* 4、新建好数据库，将hxcblogv2.0.sql文件导入数据库中或者复制数据库使用SQL语句添加创建。
 * 5、默认用户名和密码都是：admin 。
 * 6、ci框架详细安装说明，及安全增强配置请参考：https://codeigniter.org.cn/user_guide/installation/index.html
 
