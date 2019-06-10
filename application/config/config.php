@@ -29,7 +29,8 @@ $config['base_url'] = 'http://v2.huxinchun.com/';//此处填写网站根目录�
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+/*若要去除访问路径中得index.php前缀，需要修改此处*/
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
