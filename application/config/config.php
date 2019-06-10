@@ -17,7 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://v2.huxinchun.com/';//此处填写网站根目录地址
+/*配置项目根目录*/
+$config['base_url'] = 'http://localhost/';//此处填写网站根目录地址
 
 /*
 |--------------------------------------------------------------------------
