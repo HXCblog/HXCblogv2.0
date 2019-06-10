@@ -42,24 +42,18 @@
 
 二次元风格，简单自适应，兼容性好，大版个性鲜明。
 
-##安装使用说明
-####后台使用CodeIgniter3框架开发，安装步骤和ci框架基本类似（ci框架基于apache环境开发）。
-
+## 安装使用说明
+#### 后台使用CodeIgniter3框架开发，安装步骤和ci框架基本类似（ci框架基于apache环境开发）。
 * 1、解压缩安装包，将HXCblogv1.0文件夹及里面的文件上传到服务器，index.php 文件将位于网站的根目录.
 * 2、使用文本编辑器打开 application/config/config.php 文件设置你网站的根URL   
-
 ![Asd](https://github.com/HXCblog/myimages/blob/master/img/1503468157321813.png?raw=true)  
-
-
 * 3、如果你打算使用数据库，打开 application/config/database.php 文件设置数据库参数。修改为自己的数据库地址，账户，密码，及数据库。  
-
 ![ABC23](https://github.com/HXCblog/myimages/blob/master/img/1503468165131636.png?raw=true)  
-
 * 4、新建好数据库，将hxcblogv2.0.sql文件导入数据库中或者复制数据库使用SQL语句添加创建。
 * 5、默认用户名和密码都是：admin ；前端默认访问地址为：http://localhost/index.php/home(去除index.php路径化，默认访问地址为：http://localhost/home)；后台登录地址默认为：http://localhost/index.php/admin(或http://localhost/admin)
 * 6、ci框架详细安装说明，及安全增强配置请参考：https://codeigniter.org.cn/user_guide/installation/index.html
 
-####nginx环境中配置参数
+#### nginx环境中配置参数
 如果您使用的nginx环境，博客只能正常显示首页，其他页面均为404，这是由于CI框架是在apache环境中开发的，所以您需要百度CI框架在nginx环境中的配置。如下整理了一份简单的nginx环境中的虚拟主机配置，仅供参考。（如果您使用类似phpstudy等集成环境测试，选择好服务环境后一般不会出现太大问题）
 <pre>
 server
@@ -80,7 +74,7 @@ server
     }
 </pre>
 
-###补充说明
+### 补充说明
 如果正确安装配置后，出现session_start(): Failed to initialize storage module 
 原因分析：php5一个安全模式的bug，默认session的save_path是系统的临时目录，这样会要校验权限。
 解决办法：
@@ -129,8 +123,8 @@ ci官方手册：`https://codeigniter.org.cn/user_guide/general/urls.html`
 参考：`http://codeigniter.org.cn/user_guide/general/routing.html`
 
 
-##前台界面：
-###主页  
+## 前台界面：
+### 主页  
 
 ![主页w](https://github.com/HXCblog/myimages/blob/master/img/hxc1.png)   
 
